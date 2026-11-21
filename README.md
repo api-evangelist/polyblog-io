@@ -1,4 +1,4 @@
-# polyblog-io
+# Polyblog
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-polyblog-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://polyblog.io/
+Polyblog is a multilingual publishing platform that enables users to create, translate, and distribute structured blog content. Operated by Waiterio LLC, it offers a REST API for managing articles, blogs, topics, and webhooks, supporting fast, lightweight, SEO‑optimized multilingual marketing for startups and businesses.
+
+**Areas:** Company · Multilingual · Publishing · Blog · SaaS
+
+## Polyblog on APIs.io
+
+Everything profiled for Polyblog is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/polyblog-io/](https://apis.io/providers/polyblog-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Polyblog Articles API](https://apis.io/apis/polyblog-io/polyblog-io-articles-api/) — The Articles API from Polyblog — 4 operation(s) for articles.
+- [Polyblog Blogs API](https://apis.io/apis/polyblog-io/polyblog-io-blogs-api/) — The Blogs API from Polyblog — 3 operation(s) for blogs.
+- [Polyblog Topics API](https://apis.io/apis/polyblog-io/polyblog-io-topics-api/) — The Topics API from Polyblog — 1 operation(s) for topics.
+- [Polyblog Webhook subscriptions API](https://apis.io/apis/polyblog-io/polyblog-io-webhook-subscriptions-api/) — The Webhook subscriptions API from Polyblog — 2 operation(s) for webhook subscriptions.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Polyblog Agentic Access](https://apis.io/agentic-access/polyblog-io/polyblog-io-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [Entity](https://apis.io/schemas/polyblog-io/polyblog-io-entity/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Polyblog Io Context](https://apis.io/jsonld/polyblog-io/polyblog-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Polyblog API Rules](https://apis.io/rules/polyblog-io/polyblog-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Polyblog Authentication](https://apis.io/security/polyblog-io/polyblog-io-authentication/)
+- [Polyblog Domain Security](https://apis.io/security/polyblog-io/polyblog-io-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://polyblog.io/)
+- [Documentation](https://www.polyblog.io/docs/en/)
+- [API reference](https://www.polyblog.io/api/)
+- [Pricing](https://www.polyblog.io/en/pricing/)
+- [Blog](https://blog.polyblog.io/)
+- [Terms of service](https://www.polyblog.io/en/terms-and-conditions/)
+- [Privacy policy](https://www.polyblog.io/en/privacy-policy/)
+- [Status](https://www.polyblog.io/status)
+
+## API Evangelist rating
+
+**Kin Score 45.4** — developing · rubric 0.28.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 50.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 25.5 |
+
+**Agent readiness 44.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/polyblog-io/](https://apis.io/providers/polyblog-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Polyblog: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/polyblog-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
